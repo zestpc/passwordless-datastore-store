@@ -1,0 +1,43 @@
+{
+    "name": "passwordless-datastore-store",
+    "version": "0.1.0",
+    "description": "Google Datastore TokenStore for Passwordless",
+    "main": "index.js",
+    "scripts": {
+      "test": "grunt test"
+    },
+    "dependencies": {
+      "bcrypt": "^2.0.1",
+      "@google-cloud/datastore": "^1.4.2",
+      "passwordless-tokenstore": "^0.0.10"
+    },
+    "devDependencies": {
+      "chai": "^4.2.0",
+      "chance": "^1.0.18",
+      "mocha": "^5.2.0",
+      "passwordless-tokenstore-test": "^0.1.4",
+      "uuid": "^3.3.2"
+    },
+    "author": "Pratham Shah <1pratham@gmail.com> (http://facebook.com/1pratham/)",
+    "license": "MIT",
+    "directories": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zestpc/passwordless-datastore-store.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zestpc/passwordless-datastore-store/issues"
+    },
+    "homepage": "https://github.com/zestpc/passwordless-datastpre-store",
+    "keywords": [
+      "passwordless",
+      "google",
+      "datastore",
+      "nopassword",
+      "no-password",
+      "password-less",
+      "tokenstore"
+    ]
+  }
